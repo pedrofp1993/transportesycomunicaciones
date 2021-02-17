@@ -1,0 +1,380 @@
+# Translation of Plugins - Collapse-O-Matic - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Collapse-O-Matic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-15 17:47:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Collapse-O-Matic - Stable (latest release)\n"
+
+#: collapse-o-matic.php:540
+msgid "Collapse Management"
+msgstr "Gestión de cerrado"
+
+#: collapse-o-matic.php:584
+msgid "Do not use title tags by default."
+msgstr "No usar por defecto etiquetas de título."
+
+#: collapse-o-matic.php:582 collapse-o-matic.php:583
+msgid "No Title"
+msgstr "Sin título"
+
+#: collapse-o-matic.php:591
+msgid "Add jQuery touchstart binding to triggers."
+msgstr "Añadir borde jQuery touchstart a los disparadores."
+
+#: collapse-o-matic.php:589 collapse-o-matic.php:590
+msgid "Add touchstart"
+msgstr "Añadir touchstart"
+
+#: collapse-o-matic.php:666
+msgid "Display custom eT attribute in shortcodes that shows expand title for easier shortcode managment."
+msgstr "Muestra un atributo eT personalizado en los shortcodes que muestra el título de expandir para una más sencilla gestión de los shortcodes."
+
+#: collapse-o-matic.php:664 collapse-o-matic.php:665
+msgid "Display Title"
+msgstr "Mostrar título"
+
+#: collapse-o-matic.php:659
+msgid "Display custom ID attribute in shortcodes if set for easier shortcode managment."
+msgstr "Mostrar un ID personalizado del atributo en los shortcodes si se configura para una más sencilla gestión de los shortcodes."
+
+#: collapse-o-matic.php:657 collapse-o-matic.php:658
+msgid "Display ID"
+msgstr "Mostrar ID"
+
+#: collapse-o-matic.php:598
+msgid "Amount of time in milliseconds to pause before the initial collapse is triggered on page load."
+msgstr "Cantidad de tiempo en milisegundos para pausar antes de que el cerrado inicial se lance al cargar la página."
+
+#: collapse-o-matic.php:596
+msgid "Initial Pause"
+msgstr "Pausa inicial"
+
+#: collapse-o-matic.php:717
+msgid "%sCollapse-Pro-Matic%s is our premium plugin that offers additional attributes and features for <i>ultimate</i> flexibility, in addition to a very %shigh level of personal support%s."
+msgstr "%sCollapse-Pro-Matic%s es nuestro plugin premium que ofrece atributos y características adicionales para una flexibilidad <i>definitiva</i>, además de un muy %salto nivel de soporte personal%s."
+
+#: collapse-o-matic.php:681
+msgid "Only load Collapse-O-Matic CSS if [expand] shortcode is used."
+msgstr "Solo cargar el CSS de load Collapse-O-Matic si se usa el shortcode [expand]."
+
+#: collapse-o-matic.php:680
+msgid "Only load CSS with shortcode."
+msgstr "Cargar el CSS solo con el shortcode."
+
+#: collapse-o-matic.php:679
+msgid "Shortcode Loads CSS"
+msgstr "Carga del CSS del shortcode"
+
+#. Author URI of the plugin
+msgid "https://twinpictures.de/"
+msgstr "https://twinpictures.de/"
+
+#. Author of the plugin
+msgid "twinpictures, baden03"
+msgstr "twinpictures, baden03"
+
+#. Description of the plugin
+msgid "Collapse-O-Matic adds an [expand] shortcode that wraps content into a lovely, jQuery collapsible div."
+msgstr "Collapse-O-Matic añade un shortcode [expand] que envuelve el contenido en un encantador div de jQuery cerrable."
+
+#. Plugin URI of the plugin
+msgid "https://plugins.twinpictures.de/plugins/collapse-o-matic/"
+msgstr "https://plugins.twinpictures.de/plugins/collapse-o-matic/"
+
+#. Plugin Name of the plugin
+msgid "Collapse-O-Matic"
+msgstr "Collapse-O-Matic"
+
+#: collapse-o-matic.php:799
+msgid "Register"
+msgstr "Registrarse"
+
+#: collapse-o-matic.php:791
+msgid "Activate License"
+msgstr "Activar licencia"
+
+#: collapse-o-matic.php:784
+msgid "Deactivate License"
+msgstr "Desactivar licencia"
+
+#: collapse-o-matic.php:783
+msgid "active"
+msgstr "activa"
+
+#: collapse-o-matic.php:780
+msgid "License Status"
+msgstr "Estado de la licencia"
+
+#: collapse-o-matic.php:773
+msgid "Enter your license key"
+msgstr "Introduce tu clave de licencia"
+
+#: collapse-o-matic.php:771
+msgid "License Key"
+msgstr "Clave de la licencia"
+
+#: collapse-o-matic.php:760
+msgid "To receive plugin updates you must register your plugin. Enter your Collapse Commander licence key below. Licence keys may be viewed and manged by logging into %syour account%s."
+msgstr "Para recibir actualizaciones del plugin debes registrarlo. Introduce tu clave de licencia de Collapse Commander abajo. Las claves de licencia pueden verse y gestionarse accediendo a %stu cuenta%s."
+
+#: collapse-o-matic.php:758
+msgid "Register Collapse Commander"
+msgstr "Registrar Collapse Commander"
+
+#: collapse-o-matic.php:744
+msgid "If this plugin %s, please consider %sreviewing it at WordPress.org%s to help others."
+msgstr "Si este plugin %s, por favor, plantéate %svalorarlo en WordPress.org%s para ayudar a otros."
+
+#: collapse-o-matic.php:743
+msgid "%sFree Opensource Support%s"
+msgstr "%sSoporte gratuito Opensource%s"
+
+#: collapse-o-matic.php:742
+msgid "%sDetailed documentation%s, complete with working demonstrations of all shortcode attributes, is available for your instructional enjoyment."
+msgstr "%sDocumentación detallada%s, completa con demostraciones funcionales de todos los atributos del shortcode, disponible para tu disfrute y aprendizaje."
+
+#: collapse-o-matic.php:739
+msgid "Remove clutter, save space. Display and hide additional content in a SEO friendly way. Wrap any content&mdash;including other shortcodes&mdash;into a lovely jQuery expanding and collapsing element."
+msgstr "Elimina lo que sobra, ahorra espacio. Muestra y oculta contenido adicional en un modo amigable con el SEO. Envuelve cualquier contenido&mdash;incluyendo otros shortcodes&mdash;en un encantador elemento jQuery que se puede expandir y contraer."
+
+#: collapse-o-matic.php:736
+msgid "About"
+msgstr "Acerca de"
+
+#: collapse-o-matic.php:724
+msgid "Save Changes"
+msgstr "Guardar los cambios"
+
+#: collapse-o-matic.php:716
+msgid "Level Up!"
+msgstr "¡Sube de nivel!"
+
+#: collapse-o-matic.php:541 collapse-o-matic.php:711
+msgid "%sCollapse Commander%s is an add-on plugin that introduces an advanced management interface to better organize expand elements and simplify expand shortcodes."
+msgstr "%sCollapse Commander%s es un plugin de extensión que añade una interfaz de gestión avanzada para organizar mejor los elementos a expandir y simplificar los shortcodes de expandir."
+
+#: collapse-o-matic.php:710
+msgid "Take Command!"
+msgstr "¡Ponte al mando!"
+
+#: collapse-o-matic.php:705
+msgid "Where should the script be loaded, in the Header or the Footer?"
+msgstr "¿Dónde debería cargarse el script, en la cabecera o en el pie de página?"
+
+#: collapse-o-matic.php:694
+msgid "Footer"
+msgstr "Pie de página "
+
+#: collapse-o-matic.php:693
+msgid "Header"
+msgstr "Cabecera"
+
+#: collapse-o-matic.php:686
+msgid "Script Load Location"
+msgstr "Ubicación de carga del script"
+
+#: collapse-o-matic.php:674
+msgid "Only load Collapse-O-Matic scripts if [expand] shortcode is used."
+msgstr "Solo cargar los scripts de load Collapse-O-Matic si se usa el shortcode [expand]."
+
+#: collapse-o-matic.php:673
+msgid "Only load scripts with shortcode."
+msgstr "Cargar los scripts solo con el shortcode."
+
+#: collapse-o-matic.php:672
+msgid "Shortcode Loads Scripts"
+msgstr "Carga de scripts del shortcode"
+
+#: collapse-o-matic.php:648
+msgid "Apply the_content filter to target content."
+msgstr "Aplica el filtro the_content al contenido objetivo."
+
+#: collapse-o-matic.php:647
+msgid "Apply filter"
+msgstr "Aplicar filtro"
+
+#: collapse-o-matic.php:646
+msgid "Content Filter"
+msgstr "Filtro del contenido"
+
+#: collapse-o-matic.php:641
+msgid "Custom CSS style for <em>ultimate flexibility</em>"
+msgstr "Estilo CSS personalizado <em>ultimate flexibility</em>"
+
+#: collapse-o-matic.php:639
+msgid "Custom Style"
+msgstr "Estilo personalizado"
+
+#: collapse-o-matic.php:634
+msgid "Animation effect to use while collapsing and expanding. See %sAnimation Effect%s in the documentation for more info."
+msgstr "Efecto de animación a usar al cerrar y abrir. Ve %sEfecto de animación%s en la documentación para más información."
+
+#: collapse-o-matic.php:623
+msgid "Slide & Fade"
+msgstr "Deslizar y desvanecer"
+
+#: collapse-o-matic.php:622
+msgid "Slide Only"
+msgstr "Solo deslizar"
+
+#: collapse-o-matic.php:615
+msgid "Animation Effect"
+msgstr "Efecto de animación"
+
+#: collapse-o-matic.php:610
+msgid "A string or number determining how long the animation will run. See %sDuration%s in the documentation for more info."
+msgstr "Una cadena o número que determina cuánto durará la animación. Ver %sDuración%s en la documentación para más información."
+
+#: collapse-o-matic.php:608
+msgid "Collapse/Expand Duration"
+msgstr "Duración de cerrar/abrir"
+
+#: collapse-o-matic.php:577
+msgid "Default class assigned to the target element. See %sTargclass Attribute%s in the documentation for more info."
+msgstr "Clase asignada por defecto al elemento objetivo. Ver %sAtributo Targclass%s en la documentación para más información."
+
+#: collapse-o-matic.php:575
+msgid "Targclass Attribute"
+msgstr "Atributo Targclass"
+
+#: collapse-o-matic.php:570
+msgid "HTML tag use for the target element. See %sTargtag Attribute%s in the documentation for more info."
+msgstr "Etiqueta HTML a utilizar para el elemento objetivo. Ver %sAtributo Targtag%s en la documentación para más información."
+
+#: collapse-o-matic.php:568
+msgid "Targtag Attribute"
+msgstr "Atributo Targtag"
+
+#: collapse-o-matic.php:563
+msgid "Default tabindex value to be assigned to the trigger element. See %sTabindex Attribute%s in the documentation for more info."
+msgstr "Valor tabindex por defecto a asignar al elemento objetivo. Ver %sAtributo tabindex%s en la documentación para más información."
+
+#: collapse-o-matic.php:561
+msgid "Tabindex Attribute"
+msgstr "Atributo tabindex"
+
+#: collapse-o-matic.php:556
+msgid "Default class assigned to the trigger element. See %sTrigclass Attribute%s in the documentation for more info."
+msgstr "Clase asignada por defecto al elemento objetivo. Ver %sAtributo Trigclass%s en la documentación para más información."
+
+#: collapse-o-matic.php:554
+msgid "Trigclass Attribute"
+msgstr "Atributo Trigclass"
+
+#: collapse-o-matic.php:549
+msgid "HTML tag use to wrap the trigger text. See %sTag Attribute%s in the documentation for more info."
+msgstr "Etiqueta HTML a utilizar para el texto disparador. Ver %sAtributo Tag%s en la documentación para más información."
+
+#: collapse-o-matic.php:547
+msgid "Tag Attribute"
+msgstr "Atributo Tag"
+
+#: collapse-o-matic.php:535
+msgid "Default %sCollapse Commander%s ID"
+msgstr "ID por defecto del %sCollapse Commander%s ID"
+
+#: collapse-o-matic.php:533
+msgid "CID Attribute"
+msgstr "Atributo CID"
+
+#: collapse-o-matic.php:527
+msgid "Select Light for sites with lighter backgrounds. Select Dark for sites with darker backgrounds. Select None to handle styling yourself."
+msgstr "Selecciona claro para sitios con fondos claros. Selecciona oscuro para sitios con fondos oscuros. Selecciona ninguno para gestionar los estilos por tu cuenta."
+
+#: collapse-o-matic.php:516
+msgid "None"
+msgstr "Ninguno"
+
+#: collapse-o-matic.php:515
+msgid "Dark"
+msgstr "Oscuro"
+
+#: collapse-o-matic.php:514
+msgid "Light"
+msgstr "Claro"
+
+#: collapse-o-matic.php:507
+msgid "Style"
+msgstr "Estilo"
+
+#: collapse-o-matic.php:497
+msgid "Default Collapse-O-Matic Settings"
+msgstr "Ajustes por defecto de Collapse-O-Matic"
+
+#: collapse-o-matic.php:496 collapse-o-matic.php:735 collapse-o-matic.php:809
+msgid "Click to toggle"
+msgstr "Haz clic para alternar"
+
+#: collapse-o-matic.php:483
+msgid "helped that little old lady <a href=\"https://www.youtube.com/watch?v=Ug75diEyiA0\" target=\"_blank\">find the beef</a>"
+msgstr "ayudó a que esa viejecita <a href=\"https://www.youtube.com/watch?v=Ug75diEyiA0\" target=\"_blank\">encontrase la carne</a>"
+
+#: collapse-o-matic.php:482
+msgid "<a href=\"https://www.youtube.com/watch?v=dvQ28F5fOdU\" target=\"_blank\">soften hands while you do dishes</a>"
+msgstr "<a href=\"https://www.youtube.com/watch?v=dvQ28F5fOdU\" target=\"_blank\">suaviza las manos mientras las limpias</a>"
+
+#: collapse-o-matic.php:481
+msgid "helped you keep the funk alive"
+msgstr "te ayudó a mantener viva la marcha"
+
+#: collapse-o-matic.php:480
+msgid "caused you to shout: \"everybody spread love, give me some mo!\""
+msgstr "te hizo gritar: «¡difundid vuestro amor, y dame algo también!»"
+
+#: collapse-o-matic.php:479
+msgid "tasted great, while also being less filling"
+msgstr "sabía bien, siendo al mismo tiempo menos abundante"
+
+#: collapse-o-matic.php:478
+msgid "inspired you to tweet a little @twinpictues social love"
+msgstr "te inspiró para tuitear un poco de amor social a @twinpictues"
+
+#: collapse-o-matic.php:477
+msgid "caused you to dance a little jig of joy and joyousness"
+msgstr "te hizo bailar un pequeño baile de alegría y regocijo"
+
+#: collapse-o-matic.php:476
+msgid "brightened your day... or darkened if if you are trying to sleep in"
+msgstr "te alegró el día … o lo oscureció si estabas tratando de dormir"
+
+#: collapse-o-matic.php:475
+msgid "saved your minutes--if not tens of minutes--writing your own solution"
+msgstr "te ahorró minutos - o decenas de minutos - en crear tu propia solución"
+
+#: collapse-o-matic.php:474
+msgid "helped organize your life in the small ways that matter"
+msgstr "te ayudó a organizar tu vida de esas pequeñas maneras que importan"
+
+#: collapse-o-matic.php:473
+msgid "encouraged more regular flossing of the teeth"
+msgstr "te animó a ser más regular en la limpieza bucal"
+
+#: collapse-o-matic.php:472
+msgid "inspired you to commit a random act of kindness"
+msgstr "te inspiró a realizar un acto de bondad"
+
+#: collapse-o-matic.php:471
+msgid "rocked your world"
+msgstr "sacudió tu mundo"
+
+#: collapse-o-matic.php:470
+msgid "restored your faith in humanity... even if only for a fleeting second"
+msgstr "restauró tu fe en la humanidad … aunque solo fuese por un efímero segundo"
+
+#: collapse-o-matic.php:469
+msgid "made you feel all warm and fuzzy on the inside"
+msgstr "te hizo sentir totalmente cálido y confuso en tu interior"
+
+#: collapse-o-matic.php:468
+msgid "really tied the room together"
+msgstr "realmente puso todo en su sitio"
+
+#: collapse-o-matic.php:459
+msgid "Settings"
+msgstr "Ajustes"
