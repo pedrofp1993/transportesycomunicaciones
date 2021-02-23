@@ -19,13 +19,12 @@
 html {
     box-sizing:border-box;
     font-size: 62.5%;
+    margin-top: 0 !important;
 }
 body{
     font-family: var(--fuenteSecundaria);
     font-size: 16px;
-    font-size: 1.6rem;
     line-height: 1.5;
-    background-color: lightgray;
 }
 *,*:before, *:after{
     box-sizing: inherit;
@@ -41,13 +40,14 @@ h1,h2,h3,h4{
 }
 
 h1{
-    font-size: 6rem;
+    font-size: 2em;
+    line-height: 1.5;
 }
 h2{
     font-size: 4.8rem;
 }
 h3{
-    font-size: 3.6rem;
+    font-size: 2.5rem;
     margin-block-end: 0.1em;
 }
 h4{
@@ -73,12 +73,22 @@ img {
     max-width: 100%;
 
 }
+.contenedor-header {
+    width:100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: #bf0909;
+}
+
 .contenedor {
     max-width:1200px;
     width:95%;
     margin: 0 auto;
 }
-
 
 
 
@@ -88,17 +98,16 @@ img {
     top:0;
     left: 0;
     right: 0;
-    padding-top: 2rem;
     height: auto;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #bf0909;
+    padding:10px;
   
 }
 
 .barra-navegacion{
-    display: flex;
+    
     justify-content: space-between;
 }
 
@@ -111,26 +120,29 @@ img {
 .block-text{
     display: flex;
     align-items: center;
-    padding-left: 20px;
-    width:30%;
+    width:100%;
     color: white;
 }
 .logo .block-img img{
-    width:150px;
+    width:80px;
 }
 .logo .block-text h1{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .menu-principal{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    background-color: white;
+    color:black;
 }
 
 .menu-principal .menu {
     display: flex;
     justify-content: space-around;
+    font-weight: bold;
+    align-items: center;
 }
 .menu-principal li {
     margin-right: 2rem;
@@ -141,14 +153,14 @@ img {
 
 .menu-principal a {
     font-family: var(--fuentePrincipal);
-    color: white;
-    font-size: 2.2rem;
+ color: black;
+    font-size: 1.5rem;
     padding: .5rem 2rem;
     display: block;
 }
 
 .contenido-principal{
-    margin-top: 200px;
+    margin-top: 150px;
     background-color: white;
     padding: 10px 30px 50px 30px;
 }
@@ -270,12 +282,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 
-.contenedor {
-    max-width: 1200px;
-    width: 95%;
-    margin: 0 auto;
-}
-
 /** Paginas **/
 .pagina h1 {
     margin-bottom: 4rem;
@@ -303,7 +309,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .seccion {
-    padding: 5rem 0;
+    padding: 0 0;
 }
 .margin-top-body{
     margin-top: 200px;

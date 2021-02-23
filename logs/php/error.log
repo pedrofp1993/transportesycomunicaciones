@@ -124,3 +124,10 @@
 [18-Feb-2021 17:21:24 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\inc\queries.php on line 89
 [18-Feb-2021 17:22:18 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\inc\queries.php on line 89
 [18-Feb-2021 17:23:25 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\inc\queries.php on line 89
+[18-Feb-2021 21:45:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function gymfitness_lista_clases() in C:\Users\pedro\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\front-page.php:5
+Stack trace:
+#0 C:\Users\pedro\Local Sites\transportesycomunicaciones\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\pedro\Local Sites\transportesycomunicaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pedro\\...')
+#2 C:\Users\pedro\Local Sites\transportesycomunicaciones\app\public\index.php(17): require('C:\\Users\\pedro\\...')
+#3 {main}
+  thrown in C:\Users\pedro\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\front-page.php on line 5
