@@ -58,7 +58,6 @@ h4{
 a{
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
     
 }
 a :visited{
@@ -140,12 +139,29 @@ img {
 
 .menu-principal .menu {
     display: flex;
-    justify-content: space-around;
-    font-weight: bold;
+    justify-content: space-between;
     align-items: center;
+    width: 95%;
+    margin-left: 0px;
+    padding-left: 0px;
+    /* padding-right: 50px; */
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
+.menu-principal ul {
+    padding-top: 25px;
+}
+
 .menu-principal li {
-    margin-right: 2rem;
+    /*margin-right: 2rem;*/
+    cursor: pointer;
+    box-shadow: 0 2px #e0e2e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    border-left: lightgray 1px solid;
+    border-right: lightgray 1px solid;
 }
 .menu-principal li:last-of-type{
     margin-right: 0;
@@ -153,14 +169,15 @@ img {
 
 .menu-principal a {
     font-family: var(--fuentePrincipal);
- color: black;
+ color: inherit;
     font-size: 1.5rem;
     padding: .5rem 2rem;
     display: block;
+    
 }
 
 .contenido-principal{
-    margin-top: 150px;
+    margin-top: 200px;
     background-color: white;
     padding: 10px 30px 50px 30px;
 }
