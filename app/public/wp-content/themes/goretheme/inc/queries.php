@@ -13,17 +13,17 @@ function gore_lista_licencias($cantidad = -1) { ?>
             <li class="licencia card gradient">
                 <div>
                     <div>
-                <?php the_post_thumbnail('cajas'); ?>
-                </div>
-                <div class="contenido">
-                    <a href="<?php the_permalink(); ?>">
-                        <h3><?php the_title(); ?></h3>
-                    </a>
-                    <?php
-                        $tipo_licencias = get_field('tipo_licencia');
-                    ?>
-                    <p><?php the_field('tipo_licencia'); ?> - <?php echo $tipo_licencias; ?></p>
-                </div>
+                        <?php the_post_thumbnail('cajas'); ?>
+                    </div>
+                    <div class="contenido">
+                        <a href="<?php the_permalink(); ?>">
+                            <h3><?php the_title(); ?></h3>
+                        </a>
+                        <?php
+                            $tipo_licencias = get_field('tipo_licencia');
+                        ?>
+                        <p><?php the_field('tipo_licencia'); ?> - <?php echo $tipo_licencias; ?></p>
+                    </div>
                 </div>
             </li>
 
@@ -46,7 +46,7 @@ function gore_lista_noticias($cantidad = -1) { ?>
 
             <li class="licencia card gradient">
                 <div>
-                <?php the_post_thumbnail('mediano'); ?>
+                <?php the_post_thumbnail('cajas'); ?>
                 <div class="contenido">
                     <a href="<?php the_permalink(); ?>">
                         <h3><?php the_title(); ?></h3>
@@ -54,9 +54,11 @@ function gore_lista_noticias($cantidad = -1) { ?>
                     <?php
                         $fecha = get_field('fecha');
                         $hora = get_field('hora');
+                        $descripcion = get_field('descripcion');
                     ?>
-                    <p><?php the_field('fecha'); ?> - <?php echo $fecha; ?></p>
-                    <p><?php the_field('hora'); ?> - <?php echo $hora; ?></p>
+                    <p><?php echo $descripcion; ?></p>
+                    <p><?php echo $fecha; ?></p>
+                    <p> <?php echo $hora; ?></p>
                 </div>
                 </div>
             </li>
@@ -79,7 +81,7 @@ function gore_lista_servicios($cantidad = -1) { ?>
             while( $servicios->have_posts() ): $servicios->the_post(); ?>
 
             <li class="licencia card gradient">
-                <?php the_post_thumbnail('mediano'); ?>
+                <?php the_post_thumbnail('cajas'); ?>
                 <div class="contenido">
                     <a href="<?php the_permalink(); ?>">
                         <h3><?php the_title(); ?></h3>

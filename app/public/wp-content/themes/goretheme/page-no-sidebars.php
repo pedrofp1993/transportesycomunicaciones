@@ -8,3 +8,5 @@
             <?php get_template_part('template-parts/paginas') ?>
         </div>
     </main>
+
+    <?php get_footer(); ?>
