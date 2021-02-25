@@ -13,7 +13,7 @@ function gore_lista_licencias($cantidad = -1) { ?>
             <li class="licencia card gradient">
                 <div>
                     <div>
-                <?php the_post_thumbnail('square'); ?>
+                <?php the_post_thumbnail('cajas'); ?>
                 </div>
                 <div class="contenido">
                     <a href="<?php the_permalink(); ?>">
