@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'galano-grotesque';
+					src: url('/wp-content/uploads/useanyfont/2996Galano-Grotesque.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2996Galano-Grotesque.woff') format('woff');
+				}
+
+				.galano-grotesque{font-family: 'galano-grotesque' !important;}
+
+				.et_gf_galano-grotesque{background:none !important;font-family:galano-grotesque;text-indent:0 !important;font-size:25px;}
+
+		

@@ -4,7 +4,7 @@
  *Template sin sidebar para noticias
  **/
     get_header();?>
-    <div class="contenido-principal" style="background-color:lightgray">
+    <div class="contenido-principal">
 <section class="licensias">
     <div class="contenedor seccion">
         <h2 class="">Licencias</h2>
@@ -45,3 +45,5 @@
     </div>
 </section>
 </div>
+
+<?php get_footer() ?>

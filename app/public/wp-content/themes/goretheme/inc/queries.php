@@ -13,7 +13,7 @@ function gore_lista_licencias($cantidad = -1) { ?>
             <li class="licencia card gradient">
                 <div>
                     <div>
-                        <?php the_post_thumbnail('cajas'); ?>
+                        <?php the_post_thumbnail('MTC'); ?>
                     </div>
                     <div class="contenido">
                         <a href="<?php the_permalink(); ?>">
@@ -22,7 +22,7 @@ function gore_lista_licencias($cantidad = -1) { ?>
                         <?php
                             $tipo_licencias = get_field('tipo_licencia');
                         ?>
-                        <p><?php the_field('tipo_licencia'); ?> - <?php echo $tipo_licencias; ?></p>
+                        <p><?php echo $tipo_licencias; ?></p>
                     </div>
                 </div>
             </li>
@@ -46,7 +46,7 @@ function gore_lista_noticias($cantidad = -1) { ?>
 
             <li class="licencia card gradient">
                 <div>
-                <?php the_post_thumbnail('cajas'); ?>
+                <?php the_post_thumbnail('MTC'); ?>
                 <div class="contenido">
                     <a href="<?php the_permalink(); ?>">
                         <h3><?php the_title(); ?></h3>
@@ -57,8 +57,7 @@ function gore_lista_noticias($cantidad = -1) { ?>
                         $descripcion = get_field('descripcion');
                     ?>
                     <p><?php echo $descripcion; ?></p>
-                    <p><?php echo $fecha; ?></p>
-                    <p> <?php echo $hora; ?></p>
+                    <p><?php echo $fecha; ?> - <?php echo $hora; ?></p>
                 </div>
                 </div>
             </li>
@@ -81,7 +80,7 @@ function gore_lista_servicios($cantidad = -1) { ?>
             while( $servicios->have_posts() ): $servicios->the_post(); ?>
 
             <li class="licencia card gradient">
-                <?php the_post_thumbnail('cajas'); ?>
+                <?php the_post_thumbnail('MTC'); ?>
                 <div class="contenido">
                     <a href="<?php the_permalink(); ?>">
                         <h3><?php the_title(); ?></h3>

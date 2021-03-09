@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'GalanoGrotesque';
+    src: url('GalanoGrotesque-Regular.eot');
+    src: url('GalanoGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GalanoGrotesque-Regular.woff2') format('woff2'),
+        url('GalanoGrotesque-Regular.woff') format('woff'),
+        url('GalanoGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

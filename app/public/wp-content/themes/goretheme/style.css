@@ -22,7 +22,7 @@ html {
     margin-top: 0 !important;
 }
 body{
-    font-family: var(--fuenteSecundaria);
+    font-family: "GalanoGrotesque";
     font-size: 16px;
     line-height: 1.5;
 }
@@ -33,7 +33,7 @@ body{
 
 /**Headins**/
 h1,h2,h3,h4{
-    font-family: var(--fuentePrincipal);
+    font-family: "GalanoGrotesque";
 
     line-height: 1.2;
     font-weight: 700;
@@ -42,20 +42,24 @@ h1,h2,h3,h4{
 h1{
     font-size: 3em;
     line-height: 1.5;
+    color:#EE9626;
 }
 h2{
     font-size: 2.25em;
     font-weight: 700;
     line-height: 1.5;
+    color: #3850A0;
 }
 h3{
-    font-size: 2.5rem;
+    font-size: 1.5em;
     margin-block-end: 0.1em;
 }
 h4{
     font-size: 2.4rem;
 }
-
+p{
+    color:#575756;
+}
 /**GLOBALES**/
 a{
     text-decoration: none;
@@ -82,7 +86,8 @@ img {
     left: 0;
     right: 0;
     height: auto;
-    background-color: #bf0909;
+    background: white;
+    
 }
 
 .contenedor {
@@ -95,7 +100,7 @@ img {
 
 /**Propio de la pagina**/
 .site-header {
-    position: absolute;
+    position: fixed;
     top:0;
     left: 0;
     right: 0;
@@ -104,7 +109,8 @@ img {
     background-position: center center;
     background-repeat: no-repeat;
     padding:10px;
-  
+    z-index:9999;
+    background: white !important;
 }
 
 .barra-navegacion{
@@ -121,11 +127,14 @@ img {
 .block-text{
     display: flex;
     align-items: center;
-    width:100%;
-    color: white;
+    width: 180px;
+    margin-left: 20px;
+    color: #3850A0;
 }
 .logo .block-img img{
-    width:80px;
+    margin-left: 20px;
+    width:200px;
+    margin-top: -15px;
 }
 .logo .block-text h1{
     font-size: 15px;
@@ -136,7 +145,9 @@ img {
     align-items: center;
     justify-content: flex-end;
     background-color: white;
-    color:black;
+    color:#3850A0;
+    
+    padding-bottom: 20px;
 }
 
 .menu-principal .menu {
@@ -148,12 +159,15 @@ img {
     padding-left: 0px;
     /* padding-right: 50px; */
     max-width: 1200px;
+    width: 95%;
     margin: 0 auto;
 }
 
-.menu-principal ul {
-    padding-top: 25px;
+.menu-principal ul{
+    
+    background-color: lightgray;
 }
+
 
 .menu-principal li {
     /*margin-right: 2rem;*/
@@ -162,20 +176,69 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 300px;
-    border-left: lightgray 1px solid;
-    border-right: lightgray 1px solid;
+    border-left: #3850A0 1px solid;
+    border-right: #3850A0 1px solid;
+    border-bottom: #3850A0 1px solid;
 }
 .menu-principal li:last-of-type{
     margin-right: 0;
 }
 
 .menu-principal a {
-    font-family: var(--fuentePrincipal);
+    font-family: "GalanoGrotesque";
  color: inherit;
     font-size: 1.5rem;
     padding: .5rem 2rem;
     display: block;
-    
+
+}
+
+.menu-principal #menu-item-65 a::before {
+    font-family: "dashicons";
+    font-size: 7.5rem;
+    color: inherit;
+    display: block;
+    content: "\f336";
+}
+
+.menu-principal #menu-item-64 a::before {
+    font-family: "dashicons";
+    font-size: 7.5rem;
+    color: inherit;
+    display: block;
+    content: "\f497";
+}
+
+.menu-principal #menu-item-63 a::before {
+    font-family: "dashicons";
+    font-size: 7.5rem;
+    color: inherit;
+    display: block;
+    content: "\f107";
+}
+
+.menu-principal #menu-item-17 a::before {
+    font-family: "dashicons";
+    font-size: 7.5rem;
+    color: inherit;
+    display: block;
+    content: "\f16a";
+}
+
+.menu-principal #menu-item-16 a::before {
+    font-family: "dashicons";
+    font-size: 7.5rem;
+    color: inherit;
+    display: block;
+    content: "\f102";
+}
+
+.menu-principal .menu-item-81 a::before{
+    font-family: "dashicons";
+    font-size: 7.5rem;
+    color: inherit;
+    display: block;
+    content: "\f448";
 }
 
 .menu-principal ul li:hover::before {
@@ -200,22 +263,27 @@ img {
 
 }
 .contenido-principal{
-    margin-top: 200px;
+    margin-top: 300px;
     background-color: white;
     padding: 10px 30px 50px 30px;
 }
 
 
 .current-menu-item{
-    background: rgba(241,243,246);
-    font-weight: bold;
-    color:#bf0909;
+    background: #EE9626;
+    font-weight: 200;
+    color:#3850A0;
+    
     
 }
 
-.current-menu-item a::after {
-    border-bottom: #bf0909  1px solid;
+.menu-principal ul .current-menu-item:hover{
+    background: #EE9626 !important;
+    font-weight: 200 !important;
+    color:#3850A0 !important;    
 }
+
+
 
 .text-center{
     text-align: center;
@@ -269,7 +337,7 @@ img {
 }
 .card:last-of-type {
     border: lightgray 1px solid;
-    border-bottom: black 4px solid;
+    border-bottom: #3850A0 4px solid;
 }
 @media (min-width: 768px) {
     .card {
@@ -278,8 +346,8 @@ img {
         margin-left: 10px;
         margin-right: 10px;
         border: lightgray 1px solid;
-        width:400px;
-        border-bottom: black 4px solid;
+        width:350px;
+        border-bottom: #3850A0 4px solid;
         box-shadow: 0 2px #e0e2e6;
     }
 }
@@ -303,12 +371,12 @@ img {
 }
 .card .contenido h3 {
     line-height: 1;
-    color: var(--colorPrimario);
+    color: #3850A0;
     padding: 20px;
 }
 @media (min-width: 768px) {
     .card .contenido h3 {
-        color: #26292e;
+        color: #3850A0;
     }
 }
 .card .contenido p {
@@ -414,7 +482,7 @@ img {
 }
 
 .contenedor-boton a{
-    color: #05a !important
+    color: #3182ce !important;
 }
 
 @media (min-width: 768px) {
@@ -427,3 +495,47 @@ img {
     background-color: var(--colorPrimario);
     color: var(--blanco);
 }
+
+.align-horizontally {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.width-contact{
+    width:95%;
+}
+
+.container-contact {
+    width:500px;
+    border-bottom: #3850A0 4px solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.container-contact a {
+    color:#3850A0;
+    margin-bottom:10px;
+}
+.container-contact a::after {
+    color:#3850A0;
+    content: "\f345";
+    font-family: "dashicons";
+    margin-top: 10px;
+}
+/*.collapseomatic:before  {
+    font-family: "dashicons";
+    content: "\f10f";
+    margin-right:10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.collapseomatic .colomat-visited .colomat-close:before{
+    font-family: "dashicons";
+    content: "\f14f";
+    margin-right:10px;
+    font-size: 20px;
+    font-weight: normal;
+}*/
+
+
+/* EXTRA FONTS */

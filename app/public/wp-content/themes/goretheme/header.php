@@ -12,7 +12,7 @@
         <div class="barra-navegacion">
             <div class="logo">
                 <div class="block-img">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/logogore2.png"/>
+                    <img src="<?php echo get_template_directory_uri();?>/assets/LOGO-GORE-CALLAO-2020-v2.png"/>
                 </div>
                 <div class="block-text">
                     <h1>GERENCIA REGIONAL DE TRANSPORTES Y COMUNICACIONES</h1>

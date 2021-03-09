@@ -131,3 +131,14 @@ Stack trace:
 #2 C:\Users\pedro\Local Sites\transportesycomunicaciones\app\public\index.php(17): require('C:\\Users\\pedro\\...')
 #3 {main}
   thrown in C:\Users\pedro\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\front-page.php on line 5
+[03-Mar-2021 16:21:19 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 42
+[03-Mar-2021 16:21:19 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 42
+[03-Mar-2021 18:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylesheet_direct_uri() in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php:41
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\class-wp-hook.php(287): web_new_fonts('')
+#1 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\script-loader.php(2004): do_action('wp_enqueue_scri...')
+#4 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Usuario\Loca in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 41
