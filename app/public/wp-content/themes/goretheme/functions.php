@@ -12,14 +12,15 @@ require get_template_directory() . '/inc/queries.php';
         add_image_size('square', 350, 350, true);
         add_image_size('portrait', 350, 724, true);
         add_image_size('cajas', 400, 375, true);
-        add_image_size('mediano', 700, 400, true);
-        add_image_size('blog', 966, 644, true);
+        add_image_size('mediano', 700, 350, true);
+        add_image_size('blog', 966, 350, true);
     }
     add_action('after_setup_theme', 'gore_setup');
 
     function GORE_menus() {
         register_nav_menus(array(
-            'menu-principal' => __( 'Menu Principal', 'GORE')
+            'menu-principal' => __( 'Menu Principal', 'GORE'),
+            'menu-nosotros' => __( 'Menu Nosotros', 'GORE')
         ));
     }
     add_action('init','GORE_menus');
@@ -40,4 +41,5 @@ require get_template_directory() . '/inc/queries.php';
     function web_new_fonts () {
         wp_enqueue_style('grotesque-font-css',get_stylesheet_directory_uri() . '/fonts/galanogrotesque/stylesheet.css');
     }
+
 ?>

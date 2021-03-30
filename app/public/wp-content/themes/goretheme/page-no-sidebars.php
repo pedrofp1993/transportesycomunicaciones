@@ -1,6 +1,6 @@
 <?php
 /**
- *Template sin sidebar para noticias
+ *Template Name: Contenido Centrado
  **/
     get_header();?>
     <main class="contenedor pagina">

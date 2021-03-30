@@ -142,3 +142,30 @@ Stack trace:
 #4 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\class-wp-hook.php(287): wp_enqueue_scripts('')
 #5 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
 #6 C:\Users\Usuario\Loca in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 41
+[11-Mar-2021 15:05:21 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[11-Mar-2021 15:05:21 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[11-Mar-2021 15:05:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[11-Mar-2021 15:05:24 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[11-Mar-2021 15:05:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[11-Mar-2021 15:05:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[11-Mar-2021 15:05:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[11-Mar-2021 15:05:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\functions.php on line 22
+[16-Mar-2021 18:22:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function esc_url(), 0 passed in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\header.php on line 21 and at least 1 expected in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\formatting.php:4307
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\header.php(21): esc_url()
+#1 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\template.php(730): require_once('C:\\Users\\Usuari...')
+#2 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Usuari...', true, Array)
+#3 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\page-historia.php(5): ge in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\formatting.php on line 4307
+[16-Mar-2021 18:36:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\header.php on line 21
+[16-Mar-2021 18:37:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ¿get_permalink() in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\header.php:21
+Stack trace:
+#0 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\template.php(730): require_once()
+#1 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Usuari...', true, Array)
+#2 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\page-nosotros.php(5): get_header()
+#4 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Usuari...')
+#5 C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Usuari...')
+#6 C:\Users\Usua in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\header.php on line 21
+[24-Mar-2021 19:15:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\sidebar-requisitos.php on line 26
+[24-Mar-2021 19:15:49 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\sidebar-requisitos.php on line 26
