@@ -169,3 +169,4 @@ Stack trace:
 #6 C:\Users\Usua in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\header.php on line 21
 [24-Mar-2021 19:15:28 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\sidebar-requisitos.php on line 26
 [24-Mar-2021 19:15:49 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Usuario\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\sidebar-requisitos.php on line 26
+[06-May-2021 14:16:09 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\GTAD56JD\Local Sites\transportesycomunicaciones\app\public\wp-content\themes\goretheme\page-licencias-de-conducir.php on line 13

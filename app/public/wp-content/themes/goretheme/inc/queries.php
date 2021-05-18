@@ -13,16 +13,14 @@ function gore_lista_licencias($cantidad = -1) { ?>
             <li class="licencia card gradient">
                 <div>
                     <div>
-                        <?php the_post_thumbnail('MTC'); ?>
-                    </div>
-                    <div class="contenido">
                         <a href="<?php the_permalink(); ?>">
-                            <h3><?php the_title(); ?></h3>
+                            <?php the_post_thumbnail('MTC'); ?>
                         </a>
-                        <?php
-                            $tipo_licencias = get_field('tipo_licencia');
-                        ?>
-                        <p><?php echo $tipo_licencias; ?></p>
+                    </div>
+                    <div class="contenido text-center">
+                        
+                            <h3><?php the_title(); ?></h3>
+                        
                     </div>
                 </div>
             </li>
@@ -56,8 +54,8 @@ function gore_lista_noticias($cantidad = -1) { ?>
                         $hora = get_field('hora');
                         $descripcion = get_field('descripcion');
                     ?>
-                    <p><?php echo $descripcion; ?></p>
-                    <p><?php echo $fecha; ?> - <?php echo $hora; ?></p>
+                    <p class="desc_contenido"><?php echo $descripcion; ?></p>
+                    <p class="fec_contenido"><?php echo $fecha; ?> - <?php echo $hora; ?></p>
                 </div>
                 </div>
             </li>

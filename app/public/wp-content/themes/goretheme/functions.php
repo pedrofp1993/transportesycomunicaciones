@@ -20,7 +20,8 @@ require get_template_directory() . '/inc/queries.php';
     function GORE_menus() {
         register_nav_menus(array(
             'menu-principal' => __( 'Menu Principal', 'GORE'),
-            'menu-nosotros' => __( 'Menu Nosotros', 'GORE')
+            'menu-nosotros' => __( 'Menu Nosotros', 'GORE'),
+            'menu-licencias-y-circuitos' => __( 'Menu Licencias', 'GORE')
         ));
     }
     add_action('init','GORE_menus');

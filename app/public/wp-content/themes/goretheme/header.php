@@ -23,7 +23,7 @@
             <nav id="menu-principal"class="menu-principal text-center">
                 <ul id="menu-menu-1" class="menu">
                     <li id="inicio" class="menu-slide menu-item menu-item-type-custom menu-item-object-custom menu-item-home inicio"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Inicio') ) ); ?>">INICIO</a></li>
-                    <li id="nosotros" class="menu-slide menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nosotros"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Nosotros') ) ); ?>">NOSOTROS</a>
+                    <li id="nosotros" class="menu-slide menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children nosotros"><a id="nosotros-a" href="<?php echo esc_url( get_permalink( get_page_by_title('Nosotros') ) ); ?>">NOSOTROS</a>
                     
                         <ul class="sub-menu">
                             <li id="historia" class="menu-item menu-item-type-post_type menu-item-object-page historia"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Historia') ) ); ?>">HISTORIA</a></li>
@@ -33,7 +33,12 @@
                         </ul>
                         
                     </li>
-                    <li id="licencias" class="menu-slide menu-item menu-item-type-post_type menu-item-object-page licencias"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Licencias') ) ); ?>">LICENCIAS</a></li>
+                    <li id="licencias" class="menu-slide menu-item menu-item-type-post_type menu-item-object-page licencias"><a id="licencias-a" href="#">LICENCIAS Y CIRCUITOS</a>
+                        <ul class="sub-menu">
+                            <li id="circuitos" class="menu-item menu-item-type-post_type menu-item-object-page circuitos"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Licencias de Conducir') ) ); ?>">LICENCIAS</a></li>
+                            <li id="circuitos" class="menu-item menu-item-type-post_type menu-item-object-page circuitos"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Circuitos') ) ); ?>">CIRCUITOS</a></li>
+                        </ul>
+                    </li>
                     <li id="noticias" class="menu-slide menu-item menu-item-type-post_type menu-item-object-page noticias"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Noticias') ) ); ?>">NOTICIAS</a></li>
                     <li id="servicios" class="menu-slide menu-item menu-item-type-post_type menu-item-object-page servicios"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Servicios') ) ); ?>">SERVICIOS</a></li>
                     <li id="contacto" class="menu-slide menu-item menu-item-type-post_type menu-item-object-page page_item page-item-79 current_page_item contacto"><a href="<?php echo esc_url( get_permalink( get_page_by_title('Contacto') ) ); ?>" aria-current="page">CONTACTO</a></li>
